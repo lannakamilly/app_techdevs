@@ -4,9 +4,9 @@ import ImageCarousel from '../components/ImageCarousel';
 
 const SoniaGuimaraesScreen = () => {
   const images = [
-    'https://exemplo.com/imagem1.jpg',
-    'https://exemplo.com/imagem2.jpg',
-    'https://exemplo.com/imagem3.jpg'
+    '../assets/s1.jpg',
+    '../assets/s2.webp',
+    '../assets/s3.jpg'
   ];
 
   return (

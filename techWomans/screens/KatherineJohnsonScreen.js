@@ -4,9 +4,9 @@ import ImageCarousel from '../components/ImageCarousel';
 
 const KatherineJohnsonScreen = () => {
   const images = [
-    'https://exemplo.com/imagem1.jpg',
-    'https://exemplo.com/imagem2.jpg',
-    'https://exemplo.com/imagem3.jpg'
+    '../assets/k1.jpg',
+    '../assets/k4.jpg',
+    '../assets/k3.jpg'
   ];
 
   return (

@@ -4,9 +4,9 @@ import ImageCarousel from '../components/ImageCarousel';
 
 const RadiaPerlmanScreen = () => {
   const images = [
-    'https://exemplo.com/imagem1.jpg',
-    'https://exemplo.com/imagem2.jpg',
-    'https://exemplo.com/imagem3.jpg'
+    '../assets/r1.jpg',
+    '../assets/r2.jpg',
+    '../assets/r3.png'
   ];
 
   return (
