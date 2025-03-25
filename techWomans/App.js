@@ -1,8 +1,8 @@
 // No App.js
 import { NavigationContainer } from '@react-navigation/native';
 import { createDrawerNavigator } from '@react-navigation/drawer';
-import Home from './src/screens/Home';
-import GraceHopper from './src/screens/GraceHopper';
+import Home from './screens/HomeScreen';
+import GraceHopper from './screens/GraceHopperScreen';
 // ...outras mulheres
 
 const Drawer = createDrawerNavigator();

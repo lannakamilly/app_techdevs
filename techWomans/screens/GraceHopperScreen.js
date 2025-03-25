@@ -4,14 +4,14 @@ import ImageCarousel from '../components/ImageCarousel';
 
 const GraceHopperScreen = () => {
   const images = [
-    'https://exemplo.com/imagem1.jpg',
-    'https://exemplo.com/imagem2.jpg',
-    'https://exemplo.com/imagem3.jpg'
+    '../assets/grace_2t.jpg',
+    '../assets/grace_3.jpg',
+    '../assets/grace_4.jpg'
   ];
 
   return (
     <View style={styles.container}>
-      <Image source={require('../assets/logo.png')} style={styles.logo} />
+      <Image source={require('../assets/grace.jpg')} style={styles.logo} />
       <Text style={styles.title}>Grace Hopper</Text>
       <ImageCarousel images={images} />
       <Text style={styles.description}>

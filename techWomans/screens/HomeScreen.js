@@ -12,7 +12,7 @@ export default function Home() {
       <Header />
 
       <ScrollView contentContainerStyle={styles.scroll}>
-        <Image source={require('../assets/banner.png')} style={styles.banner} />
+        <Image source={require('../assets/banner.jpg')} style={styles.banner} />
         <Text style={styles.welcome}>bem-vindo</Text>
 
         <View style={styles.cardList}>

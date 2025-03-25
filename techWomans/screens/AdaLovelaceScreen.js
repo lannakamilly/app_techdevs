@@ -4,9 +4,9 @@ import ImageCarousel from '../components/ImageCarousel';
 
 const AdaLovelaceScreen = () => {
   const images = [
-    'https://exemplo.com/imagem1.jpg',
-    'https://exemplo.com/imagem2.jpg',
-    'https://exemplo.com/imagem3.jpg'
+    '../assets/AdaLovelace_1.jpg',
+    '../assets/AdaLovelace_2.jpg',
+    '../assets/AdaLoveace_3.jpg'
   ];
 
   return (

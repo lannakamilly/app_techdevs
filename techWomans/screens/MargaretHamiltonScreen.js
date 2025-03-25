@@ -4,9 +4,9 @@ import ImageCarousel from '../components/ImageCarousel';
 
 const MargaretHamiltonScreen = () => {
   const images = [
-    'https://exemplo.com/imagem1.jpg',
-    'https://exemplo.com/imagem2.jpg',
-    'https://exemplo.com/imagem3.jpg'
+    '../assets/MargaretHamilton_1.jpg',
+    '../assets/MargarethHamilton_2.jpg',
+    '../assets/MargarethHamilton_3.jpg'
   ];
 
   return (
